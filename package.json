@@ -12,7 +12,10 @@
     "lint": "tsc"
   },
   "dependencies": {
+    "@fontsource/anton": "^5.2.7",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
     "@fontsource/inter": "^5.2.8",
+    "@fontsource/ultra": "^5.2.7",
     "@remotion/cli": "4.0.380",
     "@remotion/fonts": "^4.0.380",
     "@remotion/google-fonts": "^4.0.380",

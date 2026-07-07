@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { TitleIntro, titleIntroSchema } from "./TitleIntro";
 import { SkillMatchMatrix } from "./SkillMatchMatrix";
+import { SkillMatchMatrixRetro } from "./SkillMatchMatrixRetro";
 
 // Every composition you want to render or preview must be registered here.
 export const RemotionRoot: React.FC = () => {
@@ -38,6 +39,14 @@ export const RemotionRoot: React.FC = () => {
         id="SkillMatchMatrix"
         component={SkillMatchMatrix}
         durationInFrames={360}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="SkillMatchMatrixRetro"
+        component={SkillMatchMatrixRetro}
+        durationInFrames={480}
         fps={30}
         width={1920}
         height={1080}
